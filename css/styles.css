@@ -1,0 +1,152 @@
+header {
+    width: 100%;
+    height: 8%;
+    background: linear-gradient(90deg,#1c195e,#e5bff5);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+}
+
+main:not(#logo) {
+    display: flex;
+}
+
+header h1, header p {
+    font-family: URW Chancery L, cursive, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+#header-nav {
+    width: 50%;
+    max-width: 400px;
+    height: 50px;
+}
+
+#header-nav > ul {
+    display: inline-flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-inline-start: 0;
+    margin-block: 0;
+    height: 100%;
+}
+
+#header-nav > ul > li {
+    color: #660e1a;
+    margin: 0 0.2rem;
+    padding: 0.2rem;
+    display: block;
+}
+
+#header-nav > ul > li > a {
+    color: #660e1a;
+    aspect-ratio: 7 / 1;
+    text-decoration: none;
+}
+
+#header-nav > ul > li:hover {
+    background-color: #eee0e7;
+    color: #1b1b32;
+    cursor: pointer;
+}
+
+.container {
+    width: 100%;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-block {
+    width: 45%; /* Ширина каждого блока */
+    height: 100%;
+    background-color: #f0f0f0;
+    padding: 45px;
+    margin-bottom: 20px;
+}
+
+.left-block {
+    width: 10%;
+    margin-right: 0;
+    padding: auto;
+}
+
+.left-nav-block {
+    position: fixed;
+    left: 0; 
+    width: 200px;
+    background-color: #f0f0f0;
+    padding: 20px; 
+}
+
+.content-block {
+    width: 80%;
+    
+}
+
+#title {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+#img-div {
+    display: flex;
+    justify-content: center;
+
+}
+
+
+#img-caption {
+    font-style: italic;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#image {
+    width: 500px;
+}
+
+.divider {
+    border-bottom: 1px solid #080808;
+    margin: 2px 0;
+    padding: 10px 0 10px 0;
+}
+
+.large {
+    height: 10px;
+}
+
+#common-info h2 {
+    text-align: center;
+}
+
+#common-info h3 {
+    
+}
+
+.museums > .museum-content > #img-div > img{
+    height: 200px;
+}
+
+.museums {
+    display: flex;
+}
+
+.museum-content {
+    margin: 15px;
+}
+
+footer {
+    height: 3%;
+    width: 100%;
+    bottom: 0;
+    background: linear-gradient(90deg,#1c195e,#e5bff5);
+    color: #f2f3f1;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
