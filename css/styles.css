@@ -54,6 +54,21 @@ header h1, header p {
     cursor: pointer;
 }
 
+#tribute-info {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    font-style: italic;
+    align-items: center;
+}
+
+#tribute-link {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    font-style: italic;
+}
+
 .container {
     width: 100%;
     margin-top: 2%;
@@ -92,23 +107,27 @@ header h1, header p {
 #title {
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
+    margin-bottom: 5px;
 }
 
 #img-div {
-    display: flex;
-    justify-content: center;
-
+    justify-content: center; 
+    text-align: center; 
 }
 
+#image {
+    width: 500px;
+    max-width: 100%;
+    display: block;
+    margin: 0 auto; 
+}
 
 #img-caption {
     font-style: italic;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
-}
-
-#image {
-    width: 500px;
+    display: block; 
+    margin-top: 5px; 
 }
 
 .divider {
@@ -149,4 +168,8 @@ footer {
     color: #f2f3f1;
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
+}
+
+#div-img > #img > img {
+    display: block;
 }
